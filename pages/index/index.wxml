@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<view wx:for="{{noteList}}" wx:key="noteList">
+  <view class='singleNote'>
+    <text id='noteContent'>{{item.content}}</text>
+    <text id='noteTime'>{{item.time}}</text>
+  </view>
+</view>

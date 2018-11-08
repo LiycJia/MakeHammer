@@ -1,0 +1,13 @@
+/* pages/index/index.wxss */
+.window{
+  color: #4995fa
+}
+
+#noteContent{
+  height: 1000px
+}
+
+#noteTime{
+  color: red;
+  margin: 0rpx,15rpx
+}
