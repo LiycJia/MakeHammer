@@ -1,7 +1,7 @@
 <!--pages/index/index.wxml-->
-<view wx:for="{{noteList}}" wx:key="noteList">
+<block wx:for="{{noteList}}" wx:key="noteList" id='noteList' bindtouchstart='touchStart' bindtouchmove='toucheMove' bindtouchend='touchEnd'>
   <view class='singleNote'>
     <text id='noteContent'>{{item.content}}</text>
     <text id='noteTime'>{{item.time}}</text>
   </view>
-</view>
+</block>
